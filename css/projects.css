@@ -1,0 +1,50 @@
+body{
+    background-color: #eae6e1;
+}
+
+#project {
+    display: flex;
+    flex-direction: row; /* Stack name and description vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    background-color: #eae6e1; /* Background color */
+    text-align: left; /* Center align text */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns content and image to the left */
+    align-items: flex-start; /* Aligns the content at the top */
+    max-width: 60%;
+    margin: 20px;
+}
+
+.img img {
+    width: 500px; /* Set desired width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 15px; /* Rounded corners */
+    margin-left: 20px; /* Add space between text and image */
+}
+
+.name h1 {
+    font-size: 4.75rem; /* Large, prominent heading */
+    margin: 0 0 20px 0; /* Add spacing below the heading */
+    color: #000000; /* Darker text color for contrast */
+}
+
+.subtitle h3 {
+    font-size: 2rem;
+    margin: 0;
+    color: #3d3d3d;
+}
+
+/* Styling for the description */
+.abstract p, .description p{
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    line-height: 1.8; /* Adjust line height for better spacing */
+    color: #666; /* Softer text color for description */
+    max-width: 800px; /* Limit text width for better readability */
+}
